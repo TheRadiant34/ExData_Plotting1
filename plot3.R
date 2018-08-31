@@ -19,6 +19,6 @@ lines(date.range$date.time, date.range$Sub_metering_2, col = "red")
 lines(date.range$date.time, date.range$Sub_metering_3, col = "blue")   
 
 
-legend("topright", col= c("black", "red", "blue"), lty = 1, lwd =
+legend("topright", col= c("black", "red", "blue"), lty = 1, lwd = 2,
        legend= c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 dev.off()
